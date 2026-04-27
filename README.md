@@ -17,18 +17,21 @@ This repository contains a collection of optimized solutions to competitive prog
 * **Core Logic**: A greedy approach utilizing parity checking and custom sorting. The algorithm separates odd-numbered fields, sorts them in descending order using Java's `Collections.sort()` with a lambda expression, and calculates the optimal collection order to maximize the total yield.
 * **Time Complexity**: $O(N \log N)$ due to sorting.
 * **File**: [`DandelionFields.java`](./DandelionFields.java)
+* **Codeforces Link**: [Click Here](https://codeforces.com/contest/2148/submission/338471781)
 
 ### 2. Group Formation / Array Partitioning
 * **Platform**: Codeforces Round 1047 (Div. 3)
 * **Core Logic**: Validating and grouping array elements based on their values and frequencies. This solution heavily relies on a `HashMap<Integer, ArrayList<Integer>>` to group indices by their array values. It then verifies if the size of each group is strictly divisible by its key, dynamically assigning group IDs if valid.
 * **Time Complexity**: $O(N)$ for linear mapping and assignment.
 * **File**: [`ReplaceWithOccurences.java`](./ReplaceWithOccurences.java)
+* **Codeforces Link**: [Click Here](https://codeforces.com/contest/2137/submission/337544128)
 
 ### 3. Prefix Min and Suffix Max
 * **Platform**: Codeforces Round 1034 (Div. 3) - Problem C
 * **Core Logic**: Dynamic programming / Array precomputations. To determine if an array can be reduced to a specific element using prefix-min and suffix-max operations, the solution precomputes the minimums of all prefixes and the maximums of all suffixes using strictly linear passes.
 * **Time Complexity**: $O(N)$ with two linear passes for precomputation.
 * **File**: [`PrefixMinAndSuffixMax.java`](./PrefixMinAndSuffixMax.java)
+* **Codeforces Link**: [Click Here](https://codeforces.com/contest/2123/submission/326928388)
 
 ---
 
